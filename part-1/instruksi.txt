@@ -1,2 +1,23 @@
 Instruksi:
 - jawab soal dan taruh solusi di folder ini!
+
+1. Peran utama seorang Data Engineer dalam ekosistem data adalah mengumpulkan data dari berbagai sumber,
+basis data internal, data streaming, API, dan sumber data eksternal lainnya. Selanjutnya adalah penyimpanan data
+dimana data Engineer merancang dan mengelola basis data dan sistem penyimpanan lainnya untuk menyimpan volume data
+yang besar dengan kinerja yang baik.
+
+Peran ini berbeda dengan data scientist dan data analyst dimana keduanya berfokus pada analisis data dan pengembangan model
+serta menyajikan informasi yang mudah dimengerti.
+
+2. Peran eksplorasi data dan mentransformasi data dalam artian membersihkan data, mendeteksi anomaly dan mempersiapkan data.
+
+3. ETL (Extract, Transform, Load)
+Extract = Ekstraksi data dari berbagai sumber
+Transform = mentransformasi data dengan melakukan pembersihan data, normalisasi, penggabungan data dari berbagai sumber,
+penghapusan data duplikat, dan manipulasi data lainnya.
+Load = memuatnya ke dalam sistem penyimpanan data yang dituju, seperti data warehouse atau data lake.
+
+ELT (Extract, Load, Tranfrom)
+Extract = sama seperti ETL
+Load = Data diekstraksi langsung dimuat ke dalam sistem penyimpanan data tanpa proses transformasi awal.
+Transform = dilakukan transformasi pada data.
