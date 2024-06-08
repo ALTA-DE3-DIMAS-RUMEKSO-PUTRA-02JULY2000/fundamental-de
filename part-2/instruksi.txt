@@ -1,2 +1,16 @@
 Instruksi:
 - jawab soal dan taruh solusi di folder ini!
+
+1. Gunakan relational database jika kita memiliki data dengan skema yang terstruktur,
+membutuhkan konsistensi data tinggi, dan melakukan query kompleks. Sedangkan jika data tidak
+terstruktur atau semi-struktur, skala horizontal yang mudah, atau memprioritaskan kinerja tinggi
+maka gunakan basis data NoSQL.
+
+2. Database bisa disebut juga sebagai data source atau sumber data.
+Data lake menyimpan data dalam format mentah tanpa perlu mendefinisikan skema sebelumnya,
+memungkinkan analisis yang lebih fleksibel dan eksplorasi data yang mendalam.
+Data warehouse digunakan untuk menyimpan data yang terstruktur dari berbagai sumber.
+Data mart adalah subset dari data warehouse yang didesain untuk mendukung kebutuhan analisis data.
+
+3. Normalisasi adalah sebuah design database principle dalam mengorganisir data secara konsisten.
+Gambar ada di file disebelahnya. 
